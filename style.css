@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Rubik&family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Roboto:wght@100;300&family=Rubik&family=Zen+Kaku+Gothic+Antique:wght@300;400&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/bg-image-go-live.jpeg");
+  width: 23rem;
+  height: 90vh;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* border: 1px solid #555; */
+}
+
+.main-btn {
+  width: 15.5rem;
+  height: 2.3rem;
+  display: inline;
+  position: absolute;
+  top: 5rem;
+  left: 11.8rem;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  background-color: #c92a2a;
+  color: white;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  padding: 0.7rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.cros {
+  position: absolute;
+  top: 5rem;
+  left: 20.5rem;
+  transform: translate(-35%, -50%);
+  font-size: 0.6rem;
+  padding: 0.9rem 1.8rem;
+  width: 4.7rem;
+}
+
+.cros-icon {
+  padding: 0 1rem 0 0;
+}
+
+.secound-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  position: absolute;
+  top: 8rem;
+  left: 1.2rem;
+}
+
+.free-btn {
+  width: 9.9rem;
+  height: 2.5rem;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  border-radius: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  background: linear-gradient(to right, #4dabf7, #8e79ca);
+}
+
+.primium-btn {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0.5rem;
+  width: 9.9rem;
+  max-width: 200px;
+  background: #fff;
+  border: 1px solid #f7f7f7;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0.3rem;
+  color: #f7f7f7ff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  height: 2.5rem;
+  display: inline-block;
+}
+
+.cover-photo {
+  width: 6.5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.3rem;
+  background: rgba(51, 51, 51, 0.575);
+  gap: 1rem;
+  position: absolute;
+  top: 11.6rem;
+  left: 1rem;
+  border-radius: 0.3rem;
+}
+
+.cover-photo img {
+  width: 2rem;
+  margin-left: 2.3rem;
+  margin-top: 1.4rem;
+}
+
+.cover-btn {
+  width: 6.5rem;
+  display: block;
+  box-sizing: border-box;
+  background: rgba(51, 51, 51, 0.425);
+  margin: 0 auto;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  color: #f7f7f7ff;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.title {
+  position: absolute;
+  top: 12.6rem;
+  left: 8.4rem;
+  color: #fff;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-1 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.magic {
+  position: absolute;
+  bottom: 4.8rem;
+  left: 1rem;
+}
+
+.live {
+  box-shadow: 4px 9px 4px #8f79ca6e;
+  position: absolute;
+  bottom: 5rem;
+  left: 5.5rem;
+  width: 16.5rem;
+  height: 3.4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  outline: 0;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f7f7f7;
+  background: linear-gradient(to right, #4dabf7, #9775fa);
+}
+
+.bottoum {
+  position: absolute;
+  bottom: 1rem;
+  left: 7rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 1.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.p-one {
+  color: #999999;
+}
+
+.dot-icon {
+  width: 0.3rem;
+  position: absolute;
+  bottom: 0.8rem;
+  left: 16.9rem;
+}
