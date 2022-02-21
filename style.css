@@ -19,7 +19,7 @@ html {
 .container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("img/bg-image-go-live.jpeg");
-  width: 23rem;
+  width: 25rem;
   height: 90vh;
   background-position: center;
   /* background-repeat: no-repeat; */
@@ -232,7 +232,7 @@ body {
 
 /* make responsive */
 
-@media only screen and (max-width: 64em) {
+@media only screen and (max-width: 84em) {
   .container {
     display: inline-block;
     width: 100%;
@@ -243,19 +243,19 @@ body {
     position: fixed;
   }
   .main-btn {
-    width: 19rem;
-    height: 2.7rem;
+    width: 26rem;
+    height: 4rem;
     display: inline;
     position: absolute;
-    top: 5rem;
-    left: 15.8rem;
+    top: 8rem;
+    left: 27rem;
     text-transform: uppercase;
     transform: translate(-50%, -50%);
     background-color: #c92a2a;
     color: white;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: bolder;
-    padding: 0.7rem 0.8rem;
+    padding: 1.5rem 0.8rem;
     border: none;
     cursor: pointer;
     border-radius: 2rem;
@@ -263,17 +263,17 @@ body {
 
   .cros {
     position: absolute;
-    top: 5rem;
-    left: 29.5rem;
+    top: 8rem;
+    left: 42.7rem;
     transform: translate(-35%, -50%);
     font-size: 0.6rem;
     padding: 0.9rem 1.8rem;
-    width: 4.7rem;
+    width: 5.7rem;
   }
 
   .free-btn {
-    width: 10.9rem;
-    height: 2.5rem;
+    width: 13rem;
+    height: 3rem;
     display: inline-block;
     outline: 0;
     border: none;
@@ -281,7 +281,7 @@ body {
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 0.5rem;
     text-transform: uppercase;
@@ -289,48 +289,59 @@ body {
     background: linear-gradient(to right, #4dabf7, #8e79ca);
   }
 
+  .secound-btn a img {
+    width: 1.5rem;
+  }
+
   .primium-btn {
     display: block;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0.5rem;
-    width: 10.9rem;
-    max-width: 200px;
-    background: #fff;
-    border: 1px solid #f7f7f7;
-    cursor: pointer;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 0.3rem;
-    color: #f7f7f7ff;
-    font-weight: 600;
-    font-size: 1rem;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    height: 2.5rem;
+    width: 13rem;
+    height: 3rem;
     display: inline-block;
+    border: 1px solid #f7f7f7;
+    padding: 0.5rem;
+    max-width: 340px;
+    border-radius: 0.3rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f7f7f7ff;
+    background: rgba(255, 255, 255, 0.5);
+    letter-spacing: 1px;
   }
 
   .secound-btn {
-    left: 4.5rem;
+    position: absolute;
+    top: 13rem;
+    left: 6.5rem;
+    gap: 2rem;
   }
 
   .cover-photo {
-    width: 6.5rem;
+    width: 9.5rem;
     display: flex;
     flex-direction: column;
     margin: 0.3rem;
     background: rgba(51, 51, 51, 0.575);
     gap: 1rem;
     position: absolute;
-    top: 11.6rem;
-    left: 4.3rem;
+    top: 18rem;
+    left: 5.3rem;
     border-radius: 0.3rem;
+  }
+  .cover-photo img {
+    width: 2.6rem;
+    margin-left: 3rem;
+    margin-top: 2.4rem;
   }
 
   .cover-btn {
-    width: 5.5rem;
+    width: 7.5rem;
     display: block;
     box-sizing: border-box;
     background: rgba(51, 51, 51, 0.425);
@@ -340,7 +351,7 @@ body {
     border-radius: 0.3rem;
     color: #f7f7f7ff;
     font-weight: 600;
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-decoration: none;
     letter-spacing: 1px;
     display: inline-block;
@@ -348,42 +359,12 @@ body {
 
   .title {
     position: absolute;
-    top: 12.6rem;
-    left: 12.4rem;
+    top: 19rem;
+    left: 18.4rem;
     color: #fff;
   }
 
-  .live {
-    box-shadow: 4px 9px 4px #8f79ca6e;
-    position: absolute;
-    bottom: 5rem;
-    left: 10rem;
-    width: 20.5rem;
-    height: 3.4rem;
-    display: inline-block;
-    border-radius: 10rem;
-    outline: 0;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #f7f7f7;
-    background: linear-gradient(to right, #4dabf7, #9775fa);
-  }
-
-  .list-1 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-  }
-  .list-2 {
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 34em) {
+@media only screen and (max-width: 640px){
   .container {
     display: inline-block;
     width: 100%;
@@ -413,6 +394,16 @@ body {
     border-radius: 2rem;
   }
 
+  .secound-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 8rem;
+    left: 1.2rem;
+  }
+
   .cros {
     position: absolute;
     top: 5rem;
@@ -421,6 +412,19 @@ body {
     font-size: 0.6rem;
     padding: 0.9rem 1.8rem;
     width: 4.7rem;
+  }
+
+  .title {
+    position: absolute;
+    top: 12.6rem;
+    left: 7.4rem;
+    color: #fff;
+  }
+
+  .magic {
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
   }
 
   .free-btn {
@@ -497,9 +501,9 @@ body {
   .live {
     box-shadow: 4px 9px 4px #8f79ca6e;
     position: absolute;
-    bottom: 5rem;
+    bottom: 3.5rem;
     left: 5.5rem;
-    width: 13.5rem;
+    width: 12.5rem;
     height: 3.4rem;
     display: inline-block;
     border-radius: 10rem;
@@ -514,6 +518,10 @@ body {
     background: linear-gradient(to right, #4dabf7, #9775fa);
   }
 
+  .bottoum {
+    left: 7.5rem;
+  }
+
   .list-1 {
     font-size: 0.9rem;
     font-weight: 600;
@@ -524,6 +532,185 @@ body {
   }
 }
 
-@media only screen and (max-width: 420px) {
-  /* .cros; */
+@media only screen and (max-width: 731px) and (min-width: 411px) {
+  .container {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+  }
+
+  .main-btn {
+    width: 15.5rem;
+    height: 2.5rem;
+    display: inline;
+    position: absolute;
+    top: 5rem;
+    left: 12.8rem;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    background-color: #c92a2a;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    padding: 0.7rem 0.8rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+
+  .secound-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 8rem;
+    left: 2.5rem;
+  }
+
+  .cros {
+    position: absolute;
+    top: 5rem;
+    left: 22.5rem;
+    transform: translate(-35%, -50%);
+    font-size: 0.6rem;
+    padding: 0.9rem 1.8rem;
+    width: 4.7rem;
+  }
+
+  .title {
+    position: absolute;
+    top: 12.6rem;
+    left: 8.9rem;
+    color: #fff;
+  }
+
+  .magic {
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+  }
+
+  .free-btn {
+    width: 9.9rem;
+    height: 2.5rem;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    border-radius: 0.3rem;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    background: linear-gradient(to right, #4dabf7, #8e79ca);
+  }
+
+  .primium-btn {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 9.9rem;
+    max-width: 200px;
+    background: #fff;
+    border: 1px solid #f7f7f7;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 0.3rem;
+    color: #f7f7f7ff;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 2.5rem;
+    display: inline-block;
+  }
+
+  .cover-photo {
+    width: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    background: rgba(51, 51, 51, 0.575);
+    gap: 1rem;
+    position: absolute;
+    top: 11.6rem;
+    left: 2.4rem;
+    border-radius: 0.3rem;
+  }
+
+  .cover-btn {
+    width: 5.5rem;
+    display: block;
+    box-sizing: border-box;
+    background: rgba(51, 51, 51, 0.425);
+    margin: 0 auto;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    color: #f7f7f7ff;
+    font-weight: 600;
+    font-size: 0.6rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: inline-block;
+  }
+
+  .live {
+    box-shadow: 4px 9px 4px #8f79ca6e;
+    position: absolute;
+    bottom: 3.5rem;
+    left: 5.5rem;
+    width: 18.5rem;
+    height: 3.4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    outline: 0;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f7f7f7;
+    background: linear-gradient(to right, #4dabf7, #9775fa);
+  }
+  .list-1 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .list-2 {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  .cover-photo img {
+    width: 3rem;
+    margin-left: 1.3rem;
+    margin-top: 1.4rem;
+  }
+  .magic img {
+    width: 4rem;
+  }
+  .live {
+    left: 6.5rem;
+  }
+
+  .bottoum {
+    font-size: 1rem;
+    bottom: 1rem;
+    left: 7.5rem;
+  }
 }
